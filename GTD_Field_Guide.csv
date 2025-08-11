@@ -1,0 +1,80 @@
+Variable Name,Description,Type/Coding,Availability
+eventid,Unique event ID (yyyymmdd####),Numeric,All years
+iyear,Year of incident,Numeric,All years
+imonth,Month of incident,Numeric,All years
+iday,Day of incident,Numeric,All years
+approxdate,Approximate date if exact unknown,Text,All years
+extended,Incident lasted >24 hours,"1=Yes, 0=No",All years
+resolution,Resolution date for extended incidents,Date,All years
+summary,Short narrative of incident,Text,Post-1997
+crit1,Criterion 1 met (political/economic/religious/social goal),"1=Yes, 0=No",All years
+crit2,Criterion 2 met (coerce/intimidate/publicize),"1=Yes, 0=No",All years
+crit3,Criterion 3 met (outside humanitarian law),"1=Yes, 0=No",All years
+doubtterr,Doubt terrorism proper,"1=Yes, 0=No",Post-1997
+alternative,Alternative classification if doubt,"1=Insurgency, 2=Crime, 3=Intergroup, 4=No intent, 5=State actor",Post-1997
+multiple,Part of multiple related incidents,"1=Yes, 0=No",Post-1997
+related,IDs of related incidents,Text,Post-1997
+country,Country code,Numeric (see codebook),All years
+country_txt,Country name,Text,All years
+region,Region code,Numeric (1–12),All years
+region_txt,Region name,Text,All years
+provstate,Province/state,Text,All years
+city,City,Text,All years
+vicinity,Incident in vicinity of city,"1=Yes, 0=No",All years
+location,Additional location info,Text,All years
+latitude,Latitude,Numeric,All years
+longitude,Longitude,Numeric,All years
+specificity,Geocoding specificity,1–5,All years
+attacktype1,Primary attack type code,Numeric (1–9),All years
+attacktype1_txt,Primary attack type name,Text,All years
+attacktype2,Secondary attack type code,Numeric (1–9),All years
+attacktype2_txt,Secondary attack type name,Text,All years
+attacktype3,Tertiary attack type code,Numeric (1–9),All years
+attacktype3_txt,Tertiary attack type name,Text,All years
+success,Attack successful?,"1=Yes, 0=No",All years
+suicide,Suicide attack?,"1=Yes, 0=No",All years
+weaptype1,Primary weapon type code,Numeric (1–13),All years
+weaptype1_txt,Primary weapon type name,Text,All years
+weapsubtype1,Primary weapon sub-type code,Numeric,All years
+weapsubtype1_txt,Primary weapon sub-type name,Text,All years
+weapdetail,Weapon details,Text,All years
+targtype1,Primary target type code,Numeric (1–22),All years
+targtype1_txt,Primary target type name,Text,All years
+targsubtype1,Primary target subtype code,Numeric,All years
+targsubtype1_txt,Primary target subtype name,Text,All years
+corp1,Name of entity targeted,Text,All years
+target1,Specific target/victim,Text,All years
+natlty1,Nationality code of target,Numeric,All years
+natlty1_txt,Nationality name of target,Text,All years
+gname,Perpetrator group name,Text,All years
+gsubname,Perpetrator sub-group name,Text,All years
+guncertain1,Perpetrator attribution uncertain?,"1=Yes, 0=No",All years
+individual,Unaffiliated individual(s)?,"1=Yes, 0=No",Post-1997
+nperps,Number of perpetrators,Numeric,All years
+nperpcap,Number of perpetrators captured,Numeric,Post-1997
+claimed,Claim of responsibility?,"1=Yes, 0=No",Post-1997
+claimmode,Mode of claim of responsibility,1–10,Post-1997
+compclaim,Competing claims?,"1=Yes, 0=No",Post-1997
+motive,Stated motive,Text,Post-1997
+nkill,Total fatalities,Numeric,All years
+nkillus,US fatalities,Numeric,All years
+nkillter,Perpetrator fatalities,Numeric,All years
+nwound,Total injured,Numeric,All years
+nwoundus,US injured,Numeric,All years
+nwoundte,Perpetrator injured,Numeric,All years
+property,Property damage?,"1=Yes, 0=No, -9=Unknown",All years
+propextent,Extent of property damage,"1=Catastrophic, 2=Major, 3=Minor, 4=Unknown",All years
+propvalue,Property damage value (USD),Numeric,All years
+ishostkid,Hostages/kidnappings?,"1=Yes, 0=No, -9=Unknown",All years
+nhostkid,Number of hostages/kidnapped,Numeric,All years
+nhostkidus,Number of US hostages/kidnapped,Numeric,All years
+ransom,Ransom demanded?,"1=Yes, 0=No, -9=Unknown",All years
+ransomamt,Ransom amount demanded (USD),Numeric,All years
+ransompaid,Ransom amount paid (USD),Numeric,All years
+hostkidoutcome,Hostage/kidnap outcome,1–7,All years
+nreleased,Number released/escaped/rescued,Numeric,All years
+addnotes,Additional notes,Text,Post-1997
+scite1,First source citation,Text,Post-1997
+scite2,Second source citation,Text,Post-1997
+scite3,Third source citation,Text,Post-1997
+dbsource,Original data collection source,Text,All years
